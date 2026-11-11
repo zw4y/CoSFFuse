@@ -11,10 +11,11 @@ This repository provides the complete implementation and trained weights for rep
 - Kornia
 - OpenCV, NumPy, tqdm, matplotlib
 - PyYAML
+- scikit-learn, scikit-image, SciPy
 - wandb (required by `train.py`; set `wandb_mode: offline` in `configs/cfg.yaml` to run without an account)
 
 ```bash
-pip install torch torchvision kornia opencv-python numpy tqdm matplotlib pyyaml wandb
+pip install torch torchvision kornia opencv-python numpy tqdm matplotlib pyyaml wandb scikit-learn scikit-image scipy
 ```
 
 ## Datasets
