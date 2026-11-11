@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+/MSRS/**
+!/MSRS/train/
+!/MSRS/test/
+!/MSRS/train/msrs_train_vi_filenames.txt
+!/MSRS/test/msrs_test_vi_filenames.txt
+RoadScene/
+test_result/
+checkpoints/
+.DS_Store
